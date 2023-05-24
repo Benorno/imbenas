@@ -1,0 +1,52 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    background-color: #1a202c;
+}
+main {
+    margin-top: 30svh;
+}
+
+
+/**
+ * ----------------------------------------
+ * animation focus-in-expand
+ * ----------------------------------------
+ */
+.focus-in-expand {
+    animation: focus-in-expand 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes focus-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+
+/**
+ * ----------------------------------------
+ * animation shadow-pop-tr
+ * ----------------------------------------
+ */
+.shadow-pop-tr {
+    animation: shadow-pop-tr 0.55s cubic-bezier(0.445, 0.050, 0.550, 0.950) both;
+}
+
+@keyframes shadow-pop-tr{
+    0% {
+        box-shadow: 0 0 #f8f8f8, 0 0 #f8f8f8, 0 0 #f8f8f8, 0 0 #f8f8f8, 0 0 #f8f8f8, 0 0 #f8f8f8, 0 0 #f8f8f8, 0 0 #f8f8f8;
+        transform: translateX(0) translateY(0);
+    }
+    100% {
+        box-shadow: 1px -1px #f8f8f8, 2px -2px #f8f8f8, 3px -3px #f8f8f8, 4px -4px #f8f8f8, 5px -5px #f8f8f8, 6px -6px #f8f8f8, 7px -7px #f8f8f8, 8px -8px #f8f8f8;
+        transform: translateX(-8px) translateY(8px);
+    }
+}
+
