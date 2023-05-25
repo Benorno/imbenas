@@ -17,10 +17,6 @@ Route::get('/', function () {
     return view('home.index');
 });
 
-Route::get('/about', function () {
-    return view('about.index');
-})->name('about');
-
 Route::get('/my-work', function () {
     return view('work.index');
 })->name('work');

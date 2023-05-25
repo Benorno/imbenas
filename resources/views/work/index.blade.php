@@ -3,9 +3,12 @@
 @section('title', 'My Work | imbenas')
 
 @section('content')
-    @include('home.header')
+    <header>
+        @include('header')
+    </header>
 
-    @include('home.main')
+    <main>
+        @include('work.main')
+    </main>
 
-    @include('footer')
 @endsection

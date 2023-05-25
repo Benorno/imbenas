@@ -4,13 +4,10 @@
 
 @section('content')
     <header>
-        @include('home.header')
+        @include('header')
     </header>
 
     <main>
         @include('home.main')
     </main>
-    
-
-{{--    @include('footer')--}}
 @endsection
