@@ -41,7 +41,18 @@
     </div>
     <div class="row">
         <div class="col focus-in-expand">
-            <p class="fs-5 text-center">Uploading soon...</p>
+            <div class="card" style="width: 18rem;">
+                <img src="{{ asset('img/firewave.png') }}" class="card-img-top" alt="firewave website">
+                <div class="card-body">
+                    <h5 class="card-title"><b>File Cloud</b></h5>
+                    <p class="card-text"><b>FireWave</b> is a file uploading website that offers a simple, and efficient way to store files online. Whether you need to
+                        store documents, images, videos, or music, FireWave makes it easy to upload files of any type and size.</p>
+                    <a href="https://firewavecloud.000webhostapp.com" target="_blank" class="btn btn-outline-light border-2 rounded-0 shadow-pop-tr">Demo</a>
+                </div>
+            </div>
+        </div>
+        <div class="col focus-in-expand">
+            <p class="fs-5">More sites uploading soon...</p>
         </div>
     </div>
 </div>
